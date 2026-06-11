@@ -12,13 +12,15 @@ header{
  justify-content: center;
 }
 
+ul {
+  list-style: none;
+  display: flex;
+}
+
 .header-element{
  flex-grow: 1;
 }
-ul {
- list-style: none;
-  display: flex;
-}
+
 
 .logo {
  font-family: "Raleway", sans-serif;
@@ -119,10 +121,10 @@ section{
 }
 
 #feature-section ul{
- gap: 8px;
+ gap: 24px;
 }
 #feature-section li{
- width: 264px;
+ width: 265px;
 
 }
 h3 {
@@ -155,11 +157,16 @@ h2 {
  height: 300px;
 }
 
+img{
+  object-fit:cover;
+}
+
 #portfolio-section{
  height: 1240px;
  flex-direction: column;
  justify-content: center;
  align-items: center;
+
 }
 
 #portfolio-section ul{
@@ -172,9 +179,17 @@ h2 {
  cursor: pointer;
 }
 
+#portfolio-section h3, p{
+  margin-left: 16px;
+}
+
 footer {
  background-color: #2E2F42;
  color: #FFFFFF;
+ height: 312px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
 }
 
 #our-team {
@@ -200,4 +215,9 @@ text-align: center;
 border-radius: 0 0 4px 4px;
 box-shadow: 2px 2px 2px #2E2F4214;
 
+}
+
+footer p{
+  width: 265px;
+  margin-left: 156px;
 }
